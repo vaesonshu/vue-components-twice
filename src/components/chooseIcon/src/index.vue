@@ -24,7 +24,7 @@
 <script lang="ts" setup>
 import { watch, ref } from "vue";
 import * as EIcons from "@element-plus/icons-vue";
-import { toLine } from "../../../utils/index.ts";
+import { toLine } from "../../../utils/index";
 import { useCopy } from "../../../hooks/useCopy";
 let props = defineProps<{
   // 弹出框的标题
