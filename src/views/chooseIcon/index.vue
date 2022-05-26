@@ -7,10 +7,9 @@
 </template>
 
 <script lang="ts" setup>
-import vChooseIcon from "../../components/chooseIcon/src/index.vue";
-import { ref } from "vue";
+import { ref } from 'vue'
 
-let visible = ref<boolean>(false);
+let visible = ref<boolean>(false)
 </script>
 
 <style scoped></style>

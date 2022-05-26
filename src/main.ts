@@ -7,6 +7,7 @@ import '../src/styles/base.scss'
 import '../src/styles/ui.scss'
 import * as EIcons from '@element-plus/icons-vue'
 import { toLine } from './utils'
+import vUI from './components'
 const app = createApp(App)
 for (let i in EIcons) {
   // 注册全局组件
@@ -16,4 +17,5 @@ for (let i in EIcons) {
 // 封装成el-icon-xxx的形式
 app.use(router)
 app.use(ElementPlus)
+app.use(vUI)
 app.mount('#app')
